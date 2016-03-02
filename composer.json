@@ -1,0 +1,27 @@
+{
+    "name":         "elmosgot/zf2-parcial-cache",
+    "description":  "Core classes for toc-goldratt, toc.tv and intranet environment",
+    "type":         "library",
+    "homepage":     "https://github.com/elmosgot/zf2-parcial-cache",
+    "keywords": [
+        "zf2",
+        "gmg"
+    ],
+    "authors": [
+        {
+            "name":      "Elwin Schotanus",
+            "email":     "elwin@ingenium-studios.com",
+            "homepage":  "http://www.ingenium-studios.com/",
+            "role":      "CTO/Owner"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.3.3"
+    },
+    "autoload": {
+        "psr-4": {
+		"Cache\\": "./library/Cache",
+        }
+    }
+}
